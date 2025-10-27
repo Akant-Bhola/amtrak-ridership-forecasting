@@ -38,14 +38,23 @@ amtrak-ridership-forecasting/
 │   └── Amtrak_Ridership_Colab.pdf
 ├── notebooks/
 │   └── Amtrak_Ridership_Forecasting.ipynb
-├── results/
-│   ├── linear/
-│   ├── exponential/
-│   ├── polynomial/
-│   ├── seasonal/
-│   └── combined/
-├── requirements.txt
-└── .gitignore
+└── results/
+    ├── linear/
+    │   ├── linear_model.png
+    │   └── linear_errors.png
+    ├── exponential/
+    │   ├── exponential_model.png
+    │   └── exponential_errors.png
+    ├── polynomial/
+    │   ├── polynomial_model.png
+    │   └── polynomial_errors.png
+    ├── seasonal/
+    │   ├── seasonal_model.png
+    │   └── seasonal_errors.png
+    └── combined/
+        ├── combined_model.png
+        └── combined_errors.png
+
 ```
 
 ---
