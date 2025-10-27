@@ -24,7 +24,7 @@ The goal was to translate raw time-series data into actionable forecasting insig
 * **Pandas** and **NumPy** for data preprocessing
 * **Statsmodels** for OLS regression and time-series modeling
 * **Matplotlib** for visualizations
-* **Scikit-learn** for evaluation utilities (optional)
+* **Scikit-learn** for evaluation utilities 
 
 ---
 
@@ -82,30 +82,6 @@ amtrak-ridership-forecasting/
 Example outputs (see full set under `/results/`):
 ![Seasonal Model](results/seasonal/seasonal_model.png)
 ![Combined Model](results/combined/combined_model.png)
-
----
-
-## 🧪 How to Run
-
-1. Clone the repo:
-
-   ```bash
-   git clone https://github.com/<your-username>/amtrak-ridership-forecasting.git
-   cd amtrak-ridership-forecasting
-   ```
-2. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Open the notebook:
-
-   ```
-   notebooks/Amtrak_Ridership_Forecasting.ipynb
-   ```
-
-Or view the full Colab export:
-[📄 Amtrak_Ridership_Colab.pdf](data/Amtrak_Ridership_Colab.pdf)
 
 ---
 
